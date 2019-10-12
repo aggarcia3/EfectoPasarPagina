@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by OpenCV_AP.rc
+//
+#define HIDC_GRUPO_IMGS                 0x80650411    // IDD_DIALOGO_PPAL

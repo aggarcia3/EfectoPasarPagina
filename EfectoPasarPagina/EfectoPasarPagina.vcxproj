@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A7D5E4BA-A484-4796-B32A-F19B2387FF16}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EfectoPasarPagina</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>EfectoPasarPagina</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <CodeAnalysisRuleSet>CppCoreCheckRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <LibraryPath>$(USERPROFILE)\pthreads\lib\x86;$(USERPROFILE)\opencv3.0.0\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <IncludePath>$(USERPROFILE)\pthreads\include;$(USERPROFILE)\opencv3.0.0\include;$(USERPROFILE)\opencv3.0.0\include\opencv;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <ExecutablePath>$(USERPROFILE)\opencv3.0.0\x86;$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CodeAnalysisRuleSet>CppCoreCheckRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <LibraryPath>$(USERPROFILE)\pthreads\lib\x86;$(USERPROFILE)\opencv3.0.0\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <IncludePath>$(USERPROFILE)\pthreads\include;$(USERPROFILE)\opencv3.0.0\include;$(USERPROFILE)\opencv3.0.0\include\opencv;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <ExecutablePath>$(USERPROFILE)\opencv3.0.0\x86;$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <CodeAnalysisRuleSet>CppCoreCheckRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <ExecutablePath>$(USERPROFILE)\opencv3.0.0\x64;$(VC_ExecutablePath_x64);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(FxCopDir);$(PATH)</ExecutablePath>
+    <IncludePath>$(USERPROFILE)\pthreads\include;$(USERPROFILE)\opencv3.0.0\include;$(USERPROFILE)\opencv3.0.0\include\opencv;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(USERPROFILE)\pthreads\lib\x64;$(USERPROFILE)\opencv3.0.0\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <CodeAnalysisRuleSet>CppCoreCheckRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <ExecutablePath>$(USERPROFILE)\opencv3.0.0\x64;$(VC_ExecutablePath_x64);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(FxCopDir);$(PATH)</ExecutablePath>
+    <IncludePath>$(USERPROFILE)\pthreads\include;$(USERPROFILE)\opencv3.0.0\include;$(USERPROFILE)\opencv3.0.0\include\opencv;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(USERPROFILE)\pthreads\lib\x64;$(USERPROFILE)\opencv3.0.0\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnablePREfast>false</EnablePREfast>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <CompileAs>CompileAsC</CompileAs>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <Version>3</Version>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <SetChecksum>true</SetChecksum>
+      <AdditionalDependencies>opencv_world300.lib;winmm.lib;User32.lib;Shell32.lib;pthreadVC2.lib;Comdlg32.lib</AdditionalDependencies>
+      <ShowProgress>LinkVerbose</ShowProgress>
+      <AssemblyDebug>false</AssemblyDebug>
+    </Link>
+    <CustomBuildStep>
+      <Command>echo Copiando librerías al directorio del ejecutable...
+copy /y "$(USERPROFILE)\opencv3.0.0\x86\opencv_world300.dll" "$(OutputPath)opencvworld300.dll" &gt; nul
+copy /y "$(USERPROFILE)\pthreads\dll\x86\pthreadVC2.dll" "$(OutputPath)pthreadVC2.dll" &gt; nul
+echo Copiando imágenes al directorio del ejecutable...
+copy /y "$(ProjectDir)imgsMuestra\*.*" "$(OutputPath)" &gt; nul
+echo Comprimiendo ejecutable...
+upx --best --ultra-brute --overlay=strip "$(OutputPath)$(AssemblyName).exe"</Command>
+      <Message>Procesos postcompilación</Message>
+      <Outputs>$(OutputPath)opencvworld300.dll;$(OutputPath)pthreadVC2.dll;%(Outputs)</Outputs>
+      <Inputs>$(USERPROFILE)\opencv3.0.0\x86\opencv_world300.dll;$(USERPROFILE)\pthreads\dll\x86\pthreadVC2.dll;%(Inputs)</Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnablePREfast>false</EnablePREfast>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <CompileAs>CompileAsC</CompileAs>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>_DEBUG;_WIN32;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <OptimizeReferences>false</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Version>3</Version>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <SetChecksum>true</SetChecksum>
+      <AdditionalDependencies>opencv_world300.lib;winmm.lib;User32.lib;Shell32.lib;pthreadVC2.lib;Comdlg32.lib</AdditionalDependencies>
+      <ShowProgress>LinkVerbose</ShowProgress>
+      <AssemblyDebug>true</AssemblyDebug>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <FullProgramDatabaseFile>true</FullProgramDatabaseFile>
+    </Link>
+    <CustomBuildStep>
+      <Command>echo Copiando librerías al directorio del ejecutable...
+copy /y "$(USERPROFILE)\opencv3.0.0\x86\opencv_world300.dll" "$(OutputPath)opencvworld300.dll" &gt; nul
+copy /y "$(USERPROFILE)\pthreads\dll\x86\pthreadVC2.dll" "$(OutputPath)pthreadVC2.dll" &gt; nul
+echo Copiando imágenes al directorio del ejecutable...
+copy /y "$(ProjectDir)imgsMuestra\*.*" "$(OutputPath)" &gt; nul</Command>
+      <Message>Procesos postcompilación</Message>
+      <Outputs>$(OutputPath)opencvworld300.dll;$(OutputPath)pthreadVC2.dll;%(Outputs)</Outputs>
+      <Inputs>$(USERPROFILE)\opencv3.0.0\x86\opencv_world300.dll;$(USERPROFILE)\pthreads\dll\x86\pthreadVC2.dll;%(Inputs)</Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <EnablePREfast>false</EnablePREfast>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <CompileAs>CompileAsC</CompileAs>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_world300.lib;winmm.lib;User32.lib;Shell32.lib;pthreadVC2.lib;Comdlg32.lib</AdditionalDependencies>
+      <Version>3</Version>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <ShowProgress>LinkVerbose</ShowProgress>
+      <SetChecksum>true</SetChecksum>
+      <AssemblyDebug>false</AssemblyDebug>
+    </Link>
+    <CustomBuildStep>
+      <Command>echo Copiando librerías al directorio del ejecutable...
+copy /y "$(USERPROFILE)\opencv3.0.0\x64\opencv_world300.dll" "$(OutputPath)opencv_world300.dll" &gt; nul
+copy /y "$(USERPROFILE)\pthreads\dll\x64\pthreadVC2.dll" "$(OutputPath)pthreadVC2.dll" &gt; nul
+echo Copiando imágenes al directorio del ejecutable...
+copy /y "$(ProjectDir)imgsMuestra\*.*" "$(OutputPath)" &gt; nul
+echo Comprimiendo ejecutable...
+upx --best --ultra-brute --overlay=strip "$(OutputPath)$(AssemblyName).exe"</Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Message>Procesos postcompilación</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>$(OutputPath)opencv_world300.dll;$(OutputPath)pthreadVC2.dll;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Inputs>$(USERPROFILE)\opencv3.0.0\x64\opencv_world300.dll;$(USERPROFILE)\pthreads\dll\x64\pthreadVC2.dll;%(Inputs)</Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>DEBUG;_WIN64;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <EnablePREfast>false</EnablePREfast>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <CompileAs>CompileAsC</CompileAs>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <OptimizeReferences>false</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_world300.lib;winmm.lib;User32.lib;Shell32.lib;pthreadVC2.lib;Comdlg32.lib</AdditionalDependencies>
+      <Version>3</Version>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <ShowProgress>LinkVerbose</ShowProgress>
+      <SetChecksum>true</SetChecksum>
+      <AssemblyDebug>true</AssemblyDebug>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <FullProgramDatabaseFile>true</FullProgramDatabaseFile>
+    </Link>
+    <CustomBuildStep>
+      <Command>echo Copiando librerías al directorio del ejecutable...
+copy /y "$(USERPROFILE)\opencv3.0.0\x64\opencv_world300.dll" "$(OutputPath)opencv_world300.dll" &gt; nul
+copy /y "$(USERPROFILE)\pthreads\dll\x64\pthreadVC2.dll" "$(OutputPath)pthreadVC2.dll" &gt; nul
+echo Copiando imágenes al directorio del ejecutable...
+copy /y "$(ProjectDir)imgsMuestra\*.*" "$(OutputPath)" &gt; nul</Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Message>Procesos postcompilación</Message>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>$(OutputPath)opencv_world300.dll;$(OutputPath)pthreadVC2.dll;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Inputs>$(USERPROFILE)\opencv3.0.0\x64\opencv_world300.dll;$(USERPROFILE)\pthreads\dll\x64\pthreadVC2.dll;%(Inputs)</Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="controlador_efecto.h" />
+    <ClInclude Include="cosenos_precomputados.h" />
+    <ClInclude Include="efecto.h" />
+    <ClInclude Include="estrategias_efecto.h" />
+    <ClInclude Include="lector_alc.h" />
+    <ClInclude Include="controlador_especifico.h" />
+    <ClInclude Include="ficheros_embebidos.h" />
+    <ClInclude Include="lista_enlazada.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="informacion_cpu.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="controlador_consola.c" />
+    <ClCompile Include="controlador_efecto.c" />
+    <ClCompile Include="efecto_nosse.c" />
+    <ClCompile Include="efecto_sse.c" />
+    <ClCompile Include="lector_alc.c" />
+    <ClCompile Include="controlador_win32.c" />
+    <ClCompile Include="lista_enlazada.c" />
+    <ClCompile Include="main_win32.c" />
+    <ClCompile Include="informacion_cpu.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icono_app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EfectoPasarPagina.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="EfectoPasarPagina.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource.hm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
